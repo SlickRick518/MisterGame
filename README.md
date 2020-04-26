@@ -1,5 +1,5 @@
 # MisterGame
-## An application that allows two users to play several games against each other and record their records
+An application that allows two users to play several games against each other and record their records
 
 ## The games include:
   - Tic-Tac-Toe 
