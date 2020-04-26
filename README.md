@@ -1,15 +1,15 @@
 # MisterGame
-# An application that allows two users to play several games against each other and record their records
+## An application that allows two users to play several games against each other and record their records
 
-# The games include:
-  ## Tic-Tac-Toe 
-  ## Connect-Four
-  ## Rock-Paper-Scissors
+## The games include:
+  - Tic-Tac-Toe 
+  - Connect-Four
+  - Rock-Paper-Scissors
 
-# Written in
-  ## Java/JavaFX
+## Written in
+  - Java/JavaFX
 
-# Authors
-  ## Emmanuel Carromero
-  ## Richard Gonzalez
+## Authors
+  - Emmanuel Carromero
+  - Richard Gonzalez
   
