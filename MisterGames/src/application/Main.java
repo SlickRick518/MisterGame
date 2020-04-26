@@ -1,5 +1,6 @@
 package application;
 	
+import TicTacToe.TicTacToe;
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.stage.Stage;
@@ -25,6 +26,13 @@ public class Main extends Application {
 	}
 	
 	public static void main(String[] args) {
+		TicTacToe game = new TicTacToe(); 
+		game.setState(1, 2, 'O');
+		game.setState(1, 1, 'O');
+		game.setState(1, 0, 'O');
+		game.printBoard();
+		System.out.println(game.checkWin());
 		launch(args);
+		
 	}
 }
