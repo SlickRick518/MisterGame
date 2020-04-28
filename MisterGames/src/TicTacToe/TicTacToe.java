@@ -4,16 +4,18 @@ public class TicTacToe {
 	private char[][] board = new char[3][3];
 
 	public TicTacToe() {
-		int row;
-		int col;
-		for (row = 0; row <= 2; row++) {
-			for (col = 0; col <= 2; col++) {
-				this.board[row][col] = '-';
+		for (int row = 0; row <= 2; row++) {
+			for (int col = 0; col <= 2; col++) {
+				this.board[row][col] = ' ';
 			}
 		}
 
 	}
 
+	public char getState(int row,int col) {
+		return this.board[row][col];
+	}
+	
 	public void setState(int row, int col, char newState) {
 		this.board[row][col] = newState;
 
